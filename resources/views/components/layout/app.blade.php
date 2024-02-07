@@ -11,8 +11,9 @@
     <body class="antialiased">
         <x-layout.navbar :navigationItems="$navigationItems"></x-layout.navbar>
         {{ $slot }}
+    <div>
     <x-layout.footer></x-layout.footer>
+    </div>
 @vite(['resources/js/app.js'])
-<footer>Footer</footer>
         </body>
 </html>
