@@ -8,12 +8,18 @@ use Illuminate\View\Component;
 
 class AppLayout extends Component
 {
+    public array $navigationItems = [];
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        //
+        $this->navigationItems = [
+            ['label' => 'About', 'href' => '#about'],
+            ['label' => 'Projects', 'href' => '#portfolio'],
+            ['label' => 'Coding Tutorials', 'href' => '#tutorials'],
+            ['label' => 'Contact', 'href' => '#contact'],
+        ];
     }
 
     /**

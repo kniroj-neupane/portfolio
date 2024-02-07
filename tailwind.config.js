@@ -41,7 +41,8 @@ export default {
           7: "#D1D5DB",
           8: "#E5E7EB",
         },
-        primary: "#912d3a",
+        
+        primary: "#7b1111",
         "blue-dark": "#1B44C8",
         secondary: "#13C296",
         "body-color": "#637381",

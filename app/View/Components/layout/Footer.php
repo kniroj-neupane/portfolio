@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Navitem extends Component
+class Footer extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class Navitem extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.layout.navitem');
+        return view('components.layout.footer');
     }
 }
