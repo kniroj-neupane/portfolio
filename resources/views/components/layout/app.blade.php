@@ -8,10 +8,10 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased">
+    <body class="antialiased dark:bg-gray-700">
         <x-layout.navbar :navigationItems="$navigationItems"></x-layout.navbar>
-        {{ $slot }}
     <div>
+        {{$slot}}
     <x-layout.footer></x-layout.footer>
     </div>
 @vite(['resources/js/app.js'])
