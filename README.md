@@ -30,11 +30,11 @@ This project was built using these technologies.
 
 ## Features
 
-** Single-Page Layout**
+**Single-Page Layout**
 
-** Styled with Tailwind**
+**Styled with Tailwind**
 
-** Responsive**
+**Responsive**
 ### Show your support
 
 Give a ⭐ if you like this website!
