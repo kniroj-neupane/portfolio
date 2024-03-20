@@ -19,9 +19,15 @@ class Projects extends Component
                 'title' => 'Portfolio',
                 'image' => url('/img/portfolio.png'),
                 'github' => 'https://github.com/kniroj-neupane/portfolio'
+            ],
+            [
+                'category' => ['Laravel','Tailwind.css','Vue.js'],
+                'title' => 'Ecommerce',
+                'image' => url('/img/ecommerce.png'),
+                'github' => 'https://github.com/kniroj-neupane/ecommerce'
             ]
         ];
-        $this->tabs = Arr::flatten(Arr::pluck($this->items,'category'));
+        $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
     }
 
     /**
