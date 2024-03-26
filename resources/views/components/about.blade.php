@@ -7,7 +7,7 @@
           <div class="w-full px-3 sm:px-4">
             <div class="py-3 sm:py-4">
               <img
-                src="public/img/about.gif"
+                src="{{ url('/img/about.gif') }}"
                 alt=""
                 class="rounded-2xl w-full"
               />
