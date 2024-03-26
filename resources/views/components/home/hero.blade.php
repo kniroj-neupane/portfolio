@@ -26,12 +26,12 @@
         </div>
         <div class="hidden lg:block lg:w-1/12 px-4"></div>
         <div class="w-full lg:w-6/12 px-4">
-          <div class="lg:text-right lg:ml-auto">
-            <div class="relative inline-block z-10 pt-11 lg:pt-0">
-              <img
-                src="{{ url('/img/me_hero.png') }}"
+          <div class="lg:text-left lg:ml-auto">
+            <div class="relative inline-block  z-10 pt-11 lg:pt-0">
+            <img
+            src="https://res.cloudinary.com/dkrkwx5rj/image/upload/v1711436509/me_hero_l6sftg.png"
                 alt="hero"
-                class="max-w-full lg:ml-auto rounded-3xl"
+                class="max-w-full lg:ml-auto h-auto rounded-3xl"
               />
             
             </div>

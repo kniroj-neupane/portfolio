@@ -15,12 +15,6 @@ class Projects extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel','Tailwind.css','Alpine.js'],
-                'title' => 'Portfolio',
-                'image' => url('/img/portfolio.png'),
-                'github' => 'https://github.com/kniroj-neupane/portfolio'
-            ],
-            [
                 'category' => ['Laravel','Tailwind.css','Vue.js'],
                 'title' => 'Ecommerce',
                 'image' => url('/img/ecommerce.png'),
